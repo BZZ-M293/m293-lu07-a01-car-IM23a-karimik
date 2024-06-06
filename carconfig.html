@@ -8,7 +8,43 @@
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
-
-
+<form action="https://it.bzz.ch/demo/formdata/index.php" method="post">
+  <fieldset>
+    <legend>Auto</legend>
+    <label>Fahrzeugmodell:
+      <select name="Fahrzeugmodell" size="1">
+        <option>Volkswagen Golf</option>
+        <option>BMW 3er</option>
+        <option>Audi A4</option>
+        <option>Mercedes-Benz C-Klasse</option>
+        <option>Ford Focus</option>
+        <option>Opel Astra</option>
+        <option>Honda Civic</option>
+        <option>Toyota Corolla</option>
+        <option>Nissan Qashqai</option>
+        <option>Renault Clio</option>
+        <option>Hyundai i30</option>
+        <option>Kia Ceed</option>
+        <option>Skoda Octavia</option>
+        <option>Peugeot 308</option>
+        <option>Mazda 3</option>
+      </select>
+    </label>
+  </fieldset>
+  <fieldset>
+    <br>
+    <legend>Lackfarben</legend>
+    <input type="radio" id="rot" name="Lackfarben" value="rot">
+    <label for="rot">Rot</label>
+    <input type="radio" id="bl" name="Lackfarben" value="blau">
+    <label for="bl">Blau</label>
+    <input type="radio" id="gr" name="Lackfarben" value="grün">
+    <label for="gr">Grün</label>
+    <input type="radio" id="sz" name="Lackfarben" value="schwarz">
+    <label for="sz">Schwarz</label>
+  </fieldset>
+  <br>
+  <button type="submit">Absenden</button>
+</form>
 </body>
 </html>
